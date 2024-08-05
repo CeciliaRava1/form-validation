@@ -2,6 +2,10 @@ body {
     padding: 0;
     margin: 0;
     background-color: #DEF9C4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Navbar section */
@@ -12,6 +16,7 @@ body {
     color: #021526;
     text-align: center;
     font-weight: 300;
+    width: 100%;
 }
 
 /* Footer section */
@@ -40,4 +45,45 @@ body {
 
 .p_element{
     font-size: 18px;
+}
+
+/* Container section */
+.container{
+    color: #021526;
+    margin-top: 40px;
+    background-color: #9CDBA6;
+    width: 442px;
+    height: 480px;
+    border-radius: 12px;
+    border: 1px solid #629A6B;
+}
+
+.p-registration{
+    font-weight: 300px;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+input{
+    margin: 10px;
+    width: 56%;
+}
+
+label{
+    font-size: 18px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 24px;
+    font-size: 18px;
+    background-color: #50B498;
+    color: #021526;
+    border-radius: 12px;
+    border: 1px solid #347A67;
+}
+
+.form-group{
+    padding-bottom: 12px;
 }
